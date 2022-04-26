@@ -1,0 +1,69 @@
+.move_element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 5px;
+    margin: 10px 45px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.butn{
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 5px;
+    background-color: #3961FF;
+    color:white;
+}
+.elem{
+    font-size: 16px;
+    border-radius: 20px;
+    margin-left: 10px;
+    pointer-events: all;
+    z-index: 1500;
+    min-width: 40px;
+
+}
+.elem:hover{
+    background:#2D334D;
+    z-index: 1500;
+    color:white;
+}
+.move{
+   
+    width: 5px;
+    max-height: 20px;
+}
+.borders{
+    position: relative;
+    padding: 20px;
+    font-size: 16px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 45px;
+    justify-content: space-around;
+}
+#scheme{
+    display:flex;
+    flex-direction: row;
+    padding: 0;
+}
+ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.border_move{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 5px;
+    background: #DDE7DB;
+    border-radius: 23px;
+    position: absolute;
+    margin: -40px -18px;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 1000;
+}
